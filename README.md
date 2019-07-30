@@ -1,6 +1,10 @@
 # Fresh JSDoc Template
 
-A clean, responsive documentation template with search and navigation highlighting for JSDoc 3. Forked from [github.com/braintree/jsdoc-template](https://github.com/braintree/jsdoc-template).
+[![NPM Version](https://img.shields.io/npm/v/jsdoc-fresh.svg)](https://npmjs.org/package/jsdoc-fresh)
+[![Build Status](https://api.cirrus-ci.com/github/JustinBeckwith/jsdoc-fresh.svg)](https://cirrus-ci.com/github/JustinBeckwith/jsdoc-fresh)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+
+> A clean, responsive documentation template with search and navigation highlighting for JSDoc 3. Forked from [github.com/braintree/jsdoc-template](https://github.com/braintree/jsdoc-template).
 
 ![Braintree JS Doc Template Screenshot](https://puu.sh/rWvW0/2831fd69d6.png)
 
