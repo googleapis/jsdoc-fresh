@@ -1,15 +1,14 @@
 {
-  "name": "jsdoc-template",
-  "version": "3.3.0",
-  "description": "Braintree JSDoc 3 Template",
-  "main": "publish.js",
+  "name": "jsdoc-fresh",
+  "version": "1.0.0",
+  "description": "Fresh JSDoc 3 Template",
   "scripts": {
     "lint": "eslint .",
     "test": "npm run lint"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/braintree/jsdoc-template"
+    "url": "https://github.com/JustinBeckwith/jsdoc-fresh"
   },
   "author": "Braintreeps <code@getbraintree.com>",
   "licenses": [
@@ -19,12 +18,13 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/braintree/jsdoc-template"
+    "url": "https://github.com/JustinBeckwith/jsdoc-fresh"
   },
-  "homepage": "https://github.com/braintree/jsdoc-template",
+  "homepage": "https://github.com/JustinBeckwith/jsdoc-fresh",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-braintree": "^2.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-braintree": "^3.0.1",
+    "semantic-release": "^15.13.18",
     "taffydb": "^2.7.3"
   }
 }
