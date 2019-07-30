@@ -1,5 +1,7 @@
 'use strict';
 
+const $ = window.$;
+
 $(document).ready(function () {
   var currentSectionNav, target;
 
@@ -18,7 +20,7 @@ $(document).ready(function () {
   // function to scroll to anchor when clicking an anchor linl
   $('a[href*="#"]:not([href="#"])').click(function () {
     /* eslint-disable no-invalid-this */
-    if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+    if (window.location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && window.location.hostname === this.hostname) {
       target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
@@ -36,7 +38,7 @@ $(window).bind('hashchange', function (event) {
   highlightActiveHash(event);
 });
 
-function highlightActiveHash(event) {
+function highlightActiveHash (event) {
   var oldUrl, oldSubSectionElement;
 
   // check for and remove old hash active state
@@ -57,13 +59,13 @@ function highlightActiveHash(event) {
   }
 }
 
-function highlightActiveSection() {
+function highlightActiveSection () {
   var pageId = getCurrentSectionName();
 
   $('#' + pageId + '-nav').addClass('active');
 }
 
-function getCurrentSectionName() {
+function getCurrentSectionName () {
   var path = window.location.pathname;
   var pageUrl = path.split('/').pop();
 
@@ -75,7 +77,7 @@ function getCurrentSectionName() {
   return sectionName;
 }
 
-function getCurrentHashName() {
+function getCurrentHashName () {
   var pageSubSectionId;
   var pageSubSectionHash = window.location.hash;
 

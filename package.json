@@ -3,28 +3,25 @@
   "version": "1.0.0",
   "description": "Fresh JSDoc 3 Template",
   "scripts": {
-    "lint": "eslint .",
-    "test": "npm run lint"
+    "lint": "semistandard",
+    "test": "npm run lint",
+    "fix": "semistandard --fix"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/JustinBeckwith/jsdoc-fresh"
   },
   "author": "Braintreeps <code@getbraintree.com>",
-  "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ],
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/JustinBeckwith/jsdoc-fresh"
   },
   "homepage": "https://github.com/JustinBeckwith/jsdoc-fresh",
   "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-braintree": "^3.0.1",
     "semantic-release": "^15.13.18",
+    "semistandard": "^13.0.1"
+  },
+  "dependencies": {
     "taffydb": "^2.7.3"
   }
 }
