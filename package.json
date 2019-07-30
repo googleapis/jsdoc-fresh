@@ -1,6 +1,6 @@
 {
   "name": "jsdoc-fresh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fresh JSDoc 3 Template",
   "scripts": {
     "lint": "semistandard",
@@ -25,3 +25,4 @@
     "taffydb": "^2.7.3"
   }
 }
+
