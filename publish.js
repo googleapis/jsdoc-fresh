@@ -290,22 +290,37 @@ function attachModuleSymbols (doclets, modules) {
 function buildMemberNav (items, itemHeading, itemsSeen, linktoFn) {
   var nav = '';
   var itemsNav = '';
+  var nameToLongnames = {};
 
   if (items && items.length) {
+    items.map(function (item) {
+      var name = item.name;
+      var longname = item.longname;
+
+      nameToLongnames[name] = nameToLongnames[name] || [];
+      nameToLongnames[name].push(longname);
+    });
+
     items.forEach(function (item) {
       var methods = find({ kind: 'function', memberof: item.longname });
+      var itemName = item.name;
+
+      // if multiple members have the same 'name', show the 'longname' rather than the 'name' in the nav
+      if (nameToLongnames[item.name].length > 1) {
+        itemName = item.longname;
+      }
 
       if (!hasOwnProp.call(item, 'longname')) {
-        itemsNav += '<li id="' + item.name.replace('/', '_') + '-nav">' + linktoFn('', item.name);
+        itemsNav += '<li id="' + itemName.replace('/', '_') + '-nav">' + linktoFn('', itemName);
         itemsNav += '</li>';
       } else if (!hasOwnProp.call(itemsSeen, item.longname)) {
         // replace '/' in url to match ID in some section
-        itemsNav += '<li id="' + item.name.replace('/', '_') + '-nav">' + linktoFn(item.longname, item.name.replace(/^module:/, ''));
+        itemsNav += '<li id="' + itemName.replace('/', '_') + '-nav">' + linktoFn(item.longname, itemName.replace(/^module:/, ''));
         if (methods.length) {
           itemsNav += "<ul class='methods'>";
 
           methods.forEach(function (method) {
-            itemsNav += '<li data-type="method" id="' + item.name.replace('/', '_') + '-' + method.name + '-nav">';
+            itemsNav += '<li data-type="method" id="' + itemName.replace('/', '_') + '-' + method.name + '-nav">';
             itemsNav += linkto(method.longname, method.name);
             itemsNav += '</li>';
           });
