@@ -1,10 +1,10 @@
 'use strict';
 
-(function () {
-  var lineId, lines, totalLines, anchorHash;
-  var source = document.getElementsByClassName('prettyprint source linenums');
-  var i = 0;
-  var lineNumber = 0;
+(function() {
+  let lineId, lines, totalLines, anchorHash;
+  const source = document.getElementsByClassName('prettyprint source linenums');
+  let i = 0;
+  let lineNumber = 0;
 
   if (source && source[0]) {
     anchorHash = document.location.hash.substring(1);
