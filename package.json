@@ -3,23 +3,23 @@
   "version": "0.0.0",
   "description": "Fresh JSDoc 3 Template",
   "scripts": {
-    "lint": "semistandard",
+    "lint": "eslint --fix '**/*.js",
     "test": "npm run lint",
-    "fix": "semistandard --fix"
+    "fix": "eslint --fix '**/*.js'"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JustinBeckwith/jsdoc-fresh"
-  },
-  "author": "Braintreeps <code@getbraintree.com>",
+  "repository": "googleapis/jsdoc-fresh",
+  "author": "Google LLC",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/JustinBeckwith/jsdoc-fresh"
+    "url": "https://github.com/googleapis/jsdoc-fresh"
   },
-  "homepage": "https://github.com/JustinBeckwith/jsdoc-fresh",
+  "homepage": "https://github.com/googleapis/jsdoc-fresh",
   "devDependencies": {
-    "semantic-release": "^15.13.18",
-    "semistandard": "^14.0.0"
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1"
   },
   "dependencies": {
     "taffydb": "^2.7.3"
