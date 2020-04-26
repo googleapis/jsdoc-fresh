@@ -19,7 +19,7 @@
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.0"
   },
   "dependencies": {
     "taffydb": "^2.7.3"
