@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/googleapis/jsdoc-fresh",
   "devDependencies": {
-    "eslint": "^6.6.0",
+    "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^3.1.1",
