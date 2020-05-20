@@ -504,9 +504,7 @@ footer {
    max-width: 800px;
 }
 
-.params,
-.returns,
-.props {
+.params, .returns, .props {
     border-spacing: 0;
     border: 1px solid #ddd;
     border-radius: 3px;
