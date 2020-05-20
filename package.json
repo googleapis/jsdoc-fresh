@@ -4,7 +4,7 @@
   "description": "Fresh JSDoc 3 Template",
   "scripts": {
     "lint": "gts check",
-    "test": "gts check",
+    "test": "echo no tests",
     "fix": "gts fix",
     "system-test": "echo no system tests",
     "samples-test": "echo no sample tests",
