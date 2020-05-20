@@ -2,30 +2,28 @@
 
 const $ = window.$;
 
-$(document).ready(function() {
-  let currentSectionNav, target;
-
+$(document).ready(() => {
   // If an anchor hash is in the URL highlight the menu item
   highlightActiveHash();
   // If a specific page section is in the URL highlight the menu item
   highlightActiveSection();
 
   // If a specific page section is in the URL scroll that section up to the top
-  currentSectionNav = $('#' + getCurrentSectionName() + '-nav');
+  const currentSectionNav = $('#' + getCurrentSectionName() + '-nav');
 
   if (currentSectionNav.position()) {
     $('nav').scrollTop(currentSectionNav.position().top);
   }
 
   // function to scroll to anchor when clicking an anchor linl
-  $('a[href*="#"]:not([href="#"])').click(function() {
+  $('a[href*="#"]:not([href="#"])').click(function () {
     /* eslint-disable no-invalid-this */
     if (
       window.location.pathname.replace(/^\//, '') ===
         this.pathname.replace(/^\//, '') &&
       window.location.hostname === this.hostname
     ) {
-      target = $(this.hash);
+      let target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate(
@@ -41,7 +39,7 @@ $(document).ready(function() {
 });
 
 // If a new anchor section is selected, change the hightlighted menu item
-$(window).bind('hashchange', function(event) {
+$(window).bind('hashchange', event => {
   highlightActiveHash(event);
 });
 

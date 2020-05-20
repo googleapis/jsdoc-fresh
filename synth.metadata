@@ -1,11 +1,17 @@
 {
-  "updateTime": "2019-11-21T18:11:05.815003Z",
   "sources": [
     {
-      "template": {
-        "name": "node_library",
-        "origin": "synthtool.gcp",
-        "version": "2019.10.17"
+      "git": {
+        "name": ".",
+        "remote": "git@github.com:JustinBeckwith/jsdoc-fresh.git",
+        "sha": "977ca81bca5b9de7a3ff690d28b3a81e63a4a67e"
+      }
+    },
+    {
+      "git": {
+        "name": "synthtool",
+        "remote": "https://github.com/googleapis/synthtool.git",
+        "sha": "7ee92820e64c0aea379781b82399d6b3f3c8655f"
       }
     }
   ]
