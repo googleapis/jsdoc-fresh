@@ -504,7 +504,7 @@ footer {
    max-width: 800px;
 }
 
-.params, .props {
+.params, .returns, .props {
     border-spacing: 0;
     border: 1px solid #ddd;
     border-radius: 3px;
@@ -518,7 +518,7 @@ footer {
     font-size: 100%;
 }
 
-.params td, .params th, .props td, .props th {
+.params td, .params th,.returns td, .returns th, .props td, .props th {
     margin: 0px;
     text-align: left;
     vertical-align: top;
@@ -526,26 +526,26 @@ footer {
     display: table-cell;
 }
 
-.params td {
+.params td, .returns td {
     border-top: 1px solid #eee;
 }
 
-.params thead tr, .props thead tr {
+.params thead tr, .returns thead tr,.props thead tr {
     background-color: #fff;
     font-weight: bold;
 }
 
-.params .params thead tr, .props .props thead tr {
+.params .params thead tr, .returns .returns thead tr, .props .props thead tr {
     background-color: #fff;
     font-weight: bold;
 }
 
-.params td.description>p:first-child, .props td.description>p:first-child {
+.params td.description>p:first-child, .returns td.description>p:first-child, .props td.description>p:first-child {
     margin-top: 0;
     padding-top: 0;
 }
 
-.params td.description>p:last-child, .props td.description>p:last-child {
+.params td.description>p:last-child, .returns td.description>p:last-child, .props td.description>p:last-child {
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -737,7 +737,7 @@ table tbody td {
     /*word-wrap: break-word;*/
 }
 
-td table.params, td table.props {
+td table.params, td table.returns, td table.props {
     border: 0;
 }
 
