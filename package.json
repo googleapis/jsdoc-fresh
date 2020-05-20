@@ -3,9 +3,12 @@
   "version": "1.0.3",
   "description": "Fresh JSDoc 3 Template",
   "scripts": {
-    "lint": "eslint --fix '**/*.js",
-    "test": "npm run lint",
-    "fix": "eslint --fix '**/*.js'"
+    "lint": "gts check",
+    "test": "echo no tests",
+    "fix": "gts fix",
+    "system-test": "echo no system tests",
+    "samples-test": "echo no sample tests",
+    "docs-test": "echo no docs tests"
   },
   "repository": "googleapis/jsdoc-fresh",
   "author": "Google LLC",
@@ -15,11 +18,8 @@
   },
   "homepage": "https://github.com/googleapis/jsdoc-fresh",
   "devDependencies": {
-    "eslint": "^7.0.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^2.0.0"
+    "gts": "^2.0.2",
+    "typescript": "^3.9.3"
   },
   "dependencies": {
     "taffydb": "^2.7.3"

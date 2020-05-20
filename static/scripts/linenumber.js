@@ -1,6 +1,6 @@
 'use strict';
 
-(function() {
+(function () {
   let lineId, lines, totalLines, anchorHash;
   const source = document.getElementsByClassName('prettyprint source linenums');
   let i = 0;
