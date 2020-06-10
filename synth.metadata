@@ -3,15 +3,15 @@
     {
       "git": {
         "name": ".",
-        "remote": "git@github.com:JustinBeckwith/jsdoc-fresh.git",
-        "sha": "977ca81bca5b9de7a3ff690d28b3a81e63a4a67e"
+        "remote": "https://github.com/googleapis/jsdoc-fresh.git",
+        "sha": "547e07a4f6cd9e7298c03713b4403a5096d1e8a8"
       }
     },
     {
       "git": {
         "name": "synthtool",
         "remote": "https://github.com/googleapis/synthtool.git",
-        "sha": "7ee92820e64c0aea379781b82399d6b3f3c8655f"
+        "sha": "1c92077459db3dc50741e878f98b08c6261181e0"
       }
     }
   ]
