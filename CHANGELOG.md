@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.4](https://www.github.com/googleapis/jsdoc-fresh/compare/v1.0.3...v1.0.4) (2020-07-09)
+
+
+### Bug Fixes
+
+* typeo in nodejs .gitattribute ([#23](https://www.github.com/googleapis/jsdoc-fresh/issues/23)) ([80e2df9](https://www.github.com/googleapis/jsdoc-fresh/commit/80e2df993ee5f674a1e9856b306eb23ca75fdbdc))
+
 ### [1.0.3](https://www.github.com/googleapis/jsdoc-fresh/compare/v1.0.2...v1.0.3) (2020-05-20)
 
 
