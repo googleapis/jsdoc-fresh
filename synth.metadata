@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/jsdoc-fresh.git",
-        "sha": "2aef3301ce93dfca6f21638bdbafec44cfa0aff0"
+        "sha": "ca83e5d1323c76106dba594ae1736536b0db94cb"
       }
     },
     {
