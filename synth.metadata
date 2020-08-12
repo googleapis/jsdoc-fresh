@@ -4,14 +4,14 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/jsdoc-fresh.git",
-        "sha": "42587e38c1879fbad1540970a9780bbcf4c6cf65"
+        "sha": "09823a49e23ef1a9e14c7ef6bb66fb94db87a651"
       }
     },
     {
       "git": {
         "name": "synthtool",
         "remote": "https://github.com/googleapis/synthtool.git",
-        "sha": "94421c47802f56a44c320257b2b4c190dc7d6b68"
+        "sha": "bd0deaa1113b588d70449535ab9cbf0f2bd0e72f"
       }
     }
   ]
