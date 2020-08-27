@@ -4,14 +4,14 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/jsdoc-fresh.git",
-        "sha": "f7d8d2cb1ccbd1fccd3ff3d4fa7e1d9dd3fb5f98"
+        "sha": "cccfeb5e0e50b8a3122b9c92101396e307aaee1a"
       }
     },
     {
       "git": {
         "name": "synthtool",
         "remote": "https://github.com/googleapis/synthtool.git",
-        "sha": "05de3e1e14a0b07eab8b474e669164dbd31f81fb"
+        "sha": "8cf6d2834ad14318e64429c3b94f6443ae83daf9"
       }
     }
   ],
@@ -23,7 +23,6 @@
     ".github/ISSUE_TEMPLATE/feature_request.md",
     ".github/ISSUE_TEMPLATE/support_request.md",
     ".github/PULL_REQUEST_TEMPLATE.md",
-    ".github/publish.yml",
     ".github/release-please.yml",
     ".github/workflows/ci.yaml",
     ".kokoro/.gitattributes",
