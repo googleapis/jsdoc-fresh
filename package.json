@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/googleapis/jsdoc-fresh",
   "devDependencies": {
-    "gts": "^2.0.2",
+    "gts": "^3.0.0-alpha.1",
     "typescript": "^3.9.3",
     "@microsoft/api-documenter": "^7.8.10",
     "@microsoft/api-extractor": "^7.8.10"
