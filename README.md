@@ -37,7 +37,7 @@ In your `.jsdoc.json` file, add a template option.
 
 ```json
 "opts": {
-  "template": "node_modules/jsdoc-template"
+  "template": "node_modules/jsdoc-fresh"
 }
 ```
 
