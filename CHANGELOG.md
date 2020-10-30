@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.5](https://www.github.com/googleapis/jsdoc-fresh/compare/v1.0.4...v1.0.5) (2020-10-30)
+
+
+### Bug Fixes
+
+* **docs:** fix the sample in README.md ([#50](https://www.github.com/googleapis/jsdoc-fresh/issues/50)) ([ac6c1a9](https://www.github.com/googleapis/jsdoc-fresh/commit/ac6c1a9a4181b59c803c7cdc49614ccbe2348318))
+
 ### [1.0.4](https://www.github.com/googleapis/jsdoc-fresh/compare/v1.0.3...v1.0.4) (2020-07-09)
 
 
