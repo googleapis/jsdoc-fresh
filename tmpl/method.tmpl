@@ -46,6 +46,13 @@
   </ul>
 <?js } ?>
 
+ <?js if (data.deprecated) { ?>
+    <div class="important tag-deprecated">Deprecated:
+      <?js= data.deprecated ?>
+    </div> 
+    <br>
+  <?js } ?>
+
 <?js if (data.params && params.length) { ?>
   <h5>Parameters:</h5>
   <?js= this.partial('params.tmpl', params) ?>
