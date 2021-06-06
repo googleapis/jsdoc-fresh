@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/googleapis/jsdoc-fresh/compare/v1.0.5...v1.1.0) (2021-06-03)
+
+
+### Features
+
+* add `gcf-owl-bot[bot]` to `ignoreAuthors` ([#64](https://www.github.com/googleapis/jsdoc-fresh/issues/64)) ([a8cff54](https://www.github.com/googleapis/jsdoc-fresh/commit/a8cff5437116ceb7f25ceae26e1033587cd3ea0e))
+* display deprecation messages better ([#68](https://www.github.com/googleapis/jsdoc-fresh/issues/68)) ([def7b82](https://www.github.com/googleapis/jsdoc-fresh/commit/def7b8280e52a943c519ac44b8534afa0b49a711))
+
 ### [1.0.5](https://www.github.com/googleapis/jsdoc-fresh/compare/v1.0.4...v1.0.5) (2020-10-30)
 
 
