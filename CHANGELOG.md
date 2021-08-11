@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://www.github.com/googleapis/jsdoc-fresh/compare/v1.1.0...v1.1.1) (2021-08-11)
+
+
+### Bug Fixes
+
+* **build:** migrate to using main branch ([#83](https://www.github.com/googleapis/jsdoc-fresh/issues/83)) ([9474adb](https://www.github.com/googleapis/jsdoc-fresh/commit/9474adbf0d559d319ff207397ba2be6b557999ac))
+
 ## [1.1.0](https://www.github.com/googleapis/jsdoc-fresh/compare/v1.0.5...v1.1.0) (2021-06-03)
 
 
