@@ -24,5 +24,8 @@
   },
   "dependencies": {
     "taffydb": "^2.7.3"
+  },
+  "engines": {
+    "node" : ">=12"
   }
 }
