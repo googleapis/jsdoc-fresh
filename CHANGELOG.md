@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/googleapis/jsdoc-fresh/compare/v1.1.1...v2.0.0) (2022-05-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* update library to use Node 12 (#108)
+
+### Build System
+
+* update library to use Node 12 ([#108](https://github.com/googleapis/jsdoc-fresh/issues/108)) ([e61c223](https://github.com/googleapis/jsdoc-fresh/commit/e61c2238db8900e339e5fe7fb8aea09642290182))
+
 ### [1.1.1](https://www.github.com/googleapis/jsdoc-fresh/compare/v1.1.0...v1.1.1) (2021-08-11)
 
 
