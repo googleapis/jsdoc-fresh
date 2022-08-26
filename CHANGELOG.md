@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/googleapis/jsdoc-fresh/compare/v2.0.0...v2.0.1) (2022-08-23)
+
+
+### Bug Fixes
+
+* remove pip install statements ([#1546](https://github.com/googleapis/jsdoc-fresh/issues/1546)) ([#112](https://github.com/googleapis/jsdoc-fresh/issues/112)) ([357e8e5](https://github.com/googleapis/jsdoc-fresh/commit/357e8e54b34dc84f2f89d766e148eb0f0927d005))
+
 ## [2.0.0](https://github.com/googleapis/jsdoc-fresh/compare/v1.1.1...v2.0.0) (2022-05-18)
 
 
