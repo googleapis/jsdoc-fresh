@@ -1,6 +1,6 @@
 {
   "name": "jsdoc-fresh",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Fresh JSDoc 3 Template",
   "scripts": {
     "lint": "gts check",

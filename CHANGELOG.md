@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/googleapis/jsdoc-fresh/compare/v2.0.1...v2.0.2) (2023-04-27)
+
+
+### Bug Fixes
+
+* **deps:** Replace `taffydb` with `@jsdoc/salty` ([#117](https://github.com/googleapis/jsdoc-fresh/issues/117)) ([27447a5](https://github.com/googleapis/jsdoc-fresh/commit/27447a52140b8399f93089aec9b83aa523f10cce))
+
 ## [2.0.1](https://github.com/googleapis/jsdoc-fresh/compare/v2.0.0...v2.0.1) (2022-08-23)
 
 
