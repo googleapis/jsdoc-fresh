@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/googleapis/jsdoc-fresh/compare/v2.0.2...v3.0.0) (2023-08-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to Node 14
+
+### Miscellaneous Chores
+
+* Upgrade to Node 14 ([50c1a03](https://github.com/googleapis/jsdoc-fresh/commit/50c1a0328a2ff7b1940989b6818366535f1c47a2))
+
 ## [2.0.2](https://github.com/googleapis/jsdoc-fresh/compare/v2.0.1...v2.0.2) (2023-04-27)
 
 
