@@ -1,6 +1,6 @@
 /* global env: true */
 /* eslint-disable vars-on-top, valid-jsdoc */
-/* eslint-disable node/no-missing-require */
+/* eslint-disable n/no-missing-require */
 'use strict';
 
 const doop = require('jsdoc/util/doop');
