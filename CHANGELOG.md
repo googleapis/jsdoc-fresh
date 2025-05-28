@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/googleapis/jsdoc-fresh/compare/v3.0.0...v4.0.0) (2025-05-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* update library to Node 18 ([#149](https://github.com/googleapis/jsdoc-fresh/issues/149))
+
+### Miscellaneous Chores
+
+* Update library to Node 18 ([#149](https://github.com/googleapis/jsdoc-fresh/issues/149)) ([543150d](https://github.com/googleapis/jsdoc-fresh/commit/543150d6479302b141b25f5643e7b26cdcd74a3f))
+
 ## [3.0.0](https://github.com/googleapis/jsdoc-fresh/compare/v2.0.2...v3.0.0) (2023-08-10)
 
 
