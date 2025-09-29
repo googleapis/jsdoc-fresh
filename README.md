@@ -1,3 +1,5 @@
+**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [MONOREPO-TEST](https://github.com/googleapis/monorepo-test/tree/main/packages/jsdoc-fresh)_**
+
 # Fresh JSDoc Template
 
 [![NPM Version](https://img.shields.io/npm/v/jsdoc-fresh.svg)](https://npmjs.org/package/jsdoc-fresh)
