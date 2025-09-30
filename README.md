@@ -1,4 +1,4 @@
-**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [MONOREPO-TEST](https://github.com/googleapis/monorepo-test/tree/main/packages/jsdoc-fresh)_**
+**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE-CORE](https://github.com/googleapis/google-cloud-node-core/tree/main/dev-packages/jsdoc-fresh)_**
 
 # Fresh JSDoc Template
 
